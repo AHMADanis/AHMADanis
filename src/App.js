@@ -1,11 +1,12 @@
 import GlobalStyle from "./components/common/GlobalStyle";
+import { Paper } from "./components/common";
 
 
 function App() {
   return (
     < >
       <GlobalStyle />
-      <h1>Hello</h1>
+      <Paper >Hello</Paper>
     </>
   );
 }
