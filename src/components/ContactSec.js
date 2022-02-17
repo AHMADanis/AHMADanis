@@ -18,12 +18,13 @@ const IconStyler = styled.span`
 
 export const IconTextWrapper = styled.div`
     display: flex;
-    align-items: center;
- padding: ${(props) => props.padding};
+    flex-direction: row;
+    padding: ${(props) => props.padding};
+    align-items: flex-end;
 `;
 
 
-const Icon = ({ children, ...props }) => {
+export const Icon = ({ children, ...props }) => {
     return <IconStyler {...props}>{children}</IconStyler>;
 };
 
@@ -46,10 +47,9 @@ margin: 20px;
 width: 100%;
 `
 
-const Divider = styled.div`
-border-top: 3px solid #fff;
+export const Divider = styled.div`
+border-top: 2px solid navy;
   border-radius: 5px;
-  border-style: double;
 `
 
 export default function ContactSec() {

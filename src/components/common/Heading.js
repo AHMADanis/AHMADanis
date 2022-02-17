@@ -14,6 +14,7 @@ const baseStyle = css`
     }};
 
 	max-width: 100%;
+    margin-left: ${props => props.marginLeft && '15px'}
 `;
 
 const HeadingOne = styled.h1`
