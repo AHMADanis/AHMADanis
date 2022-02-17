@@ -1,30 +1,33 @@
-import styled from 'styled-components'
 import React from 'react'
+import styled from 'styled-components'
+import ContactSec from '../ContactSec'
+import Container from './Container'
 import ProfileSec from './ProfileSec'
 
 
-export const PaperStyle = styled.div`
-height: 1000px;
-width: 100%;
-max-width: 1000px;
-margin-right: auto;
-margin-left: auto;
-padding: 50px;
-background-color:burlywood;
-@media screen and (max-width: 991px){
-padding-right: 30px;
-padding-left: 30px;
-}`
+
+const PaperLayout = styled.div`
+    background-color: #65b2c6; //blue shade;
+    display: flex;
+    flex-direction: column;
+	margin: 0 10% 0 10%;
+	max-width: 100%;
+    min-height: 1200px;
+    height: 100%;
+    align-items: stretch;
+  
+`
 
 
-const Paper = () => {
+
+export default function Paper() {
     return (
-        <>
-            <PaperStyle>
+        <div>
+            <PaperLayout>
                 <ProfileSec />
-            </PaperStyle>
-        </>
+                <ContactSec />
+                <Container />
+            </PaperLayout>
+        </div>
     )
 }
-
-export default Paper

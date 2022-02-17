@@ -1,25 +1,27 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Heading } from './Heading'
 
 
-export const ProfileImg = styled.div`
-position: relative;
-z-index: 20;
-display: block;
-border: 2px solid #fff;
-height: 180px;
-width: 180px;
-border-radius: 50%;
-object-fit: cover;
-margin: 20px auto;
+export const HeaderImg = styled.div`
+    min-height: 160px;
+    background-color: #d73d6c; //darkpink
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid #fff;
+   
 `
-
 
 
 const ProfileSec = () => {
     return (
         <>
-            <ProfileImg />
+            <HeaderImg>
+                <Heading h3 center>Anees Ahmad</Heading>
+                <Heading h5 center subHeading>Full Stack Developer</Heading>
+            </HeaderImg>
         </>
     )
 }
