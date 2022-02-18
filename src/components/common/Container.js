@@ -7,6 +7,7 @@ import { GoTools } from 'react-icons/go'
 import { Text } from './Text'
 
 import { Heading } from './Heading';
+import ProgressBar from '../ProgressBar';
 
 const MainContainer = styled.div`
 display: flex;
@@ -46,6 +47,7 @@ export default function Container() {
                         <Heading h4 noMargin={0} marginLeft>ABOUT ME</Heading>
                     </IconTextWrapper>
                     <Divider />
+                    <br />
                     <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </Text>
 
                     <IconTextWrapper >
@@ -53,12 +55,19 @@ export default function Container() {
                         <Heading h4 noMargin={0} marginLeft>SKILLS</Heading>
                     </IconTextWrapper>
                     <Divider />
+                    <ProgressBar />
 
                     <IconTextWrapper >
                         <Icon color="navy" size="26px"><GiPodiumWinner /></Icon>
                         <Heading h4 noMargin={0} marginLeft>AWARDS</Heading>
                     </IconTextWrapper>
                     <Divider />
+                    <br />
+                    <Heading h5>WEB DEVELOPER OF THE YEAR</Heading>
+                    <Text>abc development & co </Text>
+                    <br />
+                    <Heading h5>WEB DEVELOPER OF THE YEAR</Heading>
+                    <Text>abc development & co </Text>
                 </LeftContainer>
 
                 <RightContainer>

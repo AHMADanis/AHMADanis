@@ -7,7 +7,7 @@ import ProfileSec from './ProfileSec'
 
 
 const PaperLayout = styled.div`
-    background-color: #65b2c6; //blue shade;
+    background-color: whitesmoke; //blue shade;
     display: flex;
     flex-direction: column;
 	margin: 0 10% 0 10%;
