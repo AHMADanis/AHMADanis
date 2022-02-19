@@ -11,7 +11,6 @@ export const HeaderImg = styled.div`
     flex-direction: column;
     justify-content: center;
     border-bottom: 2px solid #fff;
-   
 `
 
 

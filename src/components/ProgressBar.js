@@ -16,17 +16,17 @@ export const Wrapper = styled.div`
 export default function ProgressBar() {
     return (
         <Wrapper padding=' 25px 0 15px'>
-            <Text>JAVASCRIPT</Text>
+            <Text>Javascript</Text>
             <Progress percent={85} status="active" />
-            <Text>REACT</Text>
+            <Text>React, React-Native</Text>
             <Progress percent={70} status="active" />
-            <Text>HTML</Text>
+            <Text>Html, Css</Text>
             <Progress percent={95} status="active" />
-            <Text>CSS</Text>
+            <Text>NodeJs</Text>
             <Progress percent={90} status="active" />
-            <Text>GITHUB</Text>
+            <Text>Git</Text>
             <Progress percent={70} status="active" />
-            <Text>SQL</Text>
+            <Text>SQL, MongoDB</Text>
             <Progress percent={88} status="active" />
         </Wrapper>
     )

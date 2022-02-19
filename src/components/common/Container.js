@@ -8,6 +8,9 @@ import { Text } from './Text'
 
 import { Heading } from './Heading';
 import ProgressBar from '../ProgressBar';
+import EduSec from '../EduSec';
+import Experience from '../Experience';
+import Hobbies from '../Hobbies';
 
 const MainContainer = styled.div`
 display: flex;
@@ -76,16 +79,19 @@ export default function Container() {
                         <Heading h4 noMargin={0} marginLeft>EDUCATION</Heading>
                     </IconTextWrapper>
                     <Divider />
+                    <EduSec />
                     <IconTextWrapper >
                         <Icon color="navy" size="26px"><GoTools /></Icon>
                         <Heading h4 noMargin={0} marginLeft>EXPERIENCE</Heading>
                     </IconTextWrapper>
                     <Divider />
+                    <Experience />
                     <IconTextWrapper >
                         <Icon color="navy" size="26px"><GiFlexibleStar /></Icon>
-                        <Heading h4 noMargin={0} marginLeft>HOBBIES n INTERESTS</Heading>
+                        <Heading h4 noMargin={0} marginLeft>HOBBIES & INTERESTS</Heading>
                     </IconTextWrapper>
                     <Divider />
+                    <Hobbies />
                 </RightContainer>
             </MainContainer>
         </div>
