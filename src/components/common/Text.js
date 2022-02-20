@@ -1,32 +1,33 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
+import Mycolors from './Mycolors';
 
 const baseStyle = css`
-	margin-bottom: ${(props) => props.noMargin && '0'};
-	color: ${(props) => (props.primary ? '#0a102b' : '#182547')};
+	color: ${(props) => (props.primary ? Mycolors.rain : Mycolors.night)};
 	font-family: 'Poppins', sans-serif;
 	font-weight: 200;
-	margin-left: 10px;
+	margin-left: ${props => props.mLeft};
+    margin-top: ${props => props.mTop};
+    margin-bottom: ${props => props.mBottom};
 	text-align: ${(props) => {
         if (props.center) return 'center';
         if (props.right) return 'right';
         return 'left';
     }};
-
 	max-width: 100%;
+    text-align: justify;
 `;
 
 
 const Para1 = styled.p`
 	font-size: 14px;
 	font-weight: normal;
-	margin-bottom: 5px;
 	${baseStyle};
 `;
 
 const Para2 = styled.p`
     ${baseStyle};
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: normal;
 	
 `;

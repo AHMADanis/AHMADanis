@@ -30,8 +30,8 @@ const ProfileSec = () => {
     return (
         <>
             <Header>
-                <TopHeading center h2 >Anees Ahmad</TopHeading>
-                <Heading h5 center subHeading>Full Stack Developer</Heading>
+                <TopHeading h1 center secondary >Anees Ahmad</TopHeading>
+                <Heading h5 center secondary>Full Stack Developer</Heading>
             </Header>
         </>
     )

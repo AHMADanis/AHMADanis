@@ -64,24 +64,24 @@ export default function ContactSec() {
             <div>
                 <IconTextWrapper pBottom='10px'>
                     <Icon color="#0a102b" size="24px"><ImUser /></Icon>
-                    <Text P2 color="#0a102b">aneesahmad.netlify.app</Text>
+                    <Text mLeft='10px' P2 color="#0a102b">aneesahmad.netlify.app</Text>
                 </IconTextWrapper>
                 <Divider />
                 <IconTextWrapper pTop='10px'>
                     <Icon color="#0a102b" size="24px"><MdEmail /></Icon>
-                    <Text P2 color="#0a102b" >inbox.ahmad.a@gmail.com</Text>
+                    <Text mLeft='10px' P2 color="#0a102b" >inbox.ahmad.a@gmail.com</Text>
                 </IconTextWrapper>
             </div>
             <div><ProfileImg /></div>
             <div>
                 <IconTextWrapper pBottom='10px'>
                     <Icon color="#0a102b" size="24px"><MdPhone /></Icon>
-                    <Text P2 color="#0a102b">+46 721262770</Text>
+                    <Text mLeft='10px' P2 color="#0a102b">+46 721262770</Text>
                 </IconTextWrapper>
                 <Divider />
                 <IconTextWrapper pTop='10px'>
                     <Icon color="#0a102b" size="24px"><MdLocationPin /></Icon>
-                    <Text P2 color="#0a102b">Gymnasistgatan 33C 21551 Malmö</Text>
+                    <Text mLeft='10px' P2 color="#0a102b">Gymnasistgatan 33C 21551 Malmö</Text>
                 </IconTextWrapper>
             </div>
         </ContactContainer>

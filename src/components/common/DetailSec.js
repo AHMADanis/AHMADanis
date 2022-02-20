@@ -22,11 +22,10 @@ justify-content: space-between;
 const LeftContainer = styled.div`
 display: flex;
 flex-direction: column;
-background-color: whitesmoke;
 width: 40%;
 min-height: 700px;
 height: 100%;
-padding: 20px;
+margin: 20px;
 `
 
 
@@ -36,33 +35,33 @@ flex-direction: column;
 width: 50%;
 min-height: 700px;
 height: 100%;
-padding: 20px;
+margin: 20px;
 `
 
 
-export default function Container() {
+export default function DetailSec() {
     return (
         <div>
             <MainContainer>
                 <LeftContainer>
                     <IconTextWrapper >
-                        <Icon color="navy" size="26px"><ImUser /></Icon>
-                        <Heading h4 noMargin={0} marginLeft>ABOUT ME</Heading>
+                        <Icon color='Mycolors.night' size="26px"><ImUser /></Icon>
+                        <Heading h4 marginLeft>ABOUT ME</Heading>
                     </IconTextWrapper>
                     <Divider />
                     <br />
-                    <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </Text>
+                    <Text P1 mBottom='30px'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </Text>
 
                     <IconTextWrapper >
-                        <Icon color="navy" size="26px"><GiProgression /></Icon>
-                        <Heading h4 noMargin={0} marginLeft>SKILLS</Heading>
+                        <Icon color='Mycolors.night' size="26px"><GiProgression /></Icon>
+                        <Heading h4 marginLeft>SKILLS</Heading>
                     </IconTextWrapper>
                     <Divider />
                     <ProgressBar />
 
                     <IconTextWrapper >
-                        <Icon color="navy" size="26px"><GiPodiumWinner /></Icon>
-                        <Heading h4 noMargin={0} marginLeft>AWARDS</Heading>
+                        <Icon color='Mycolors.night' size="26px"><GiPodiumWinner /></Icon>
+                        <Heading h4 marginLeft>AWARDS</Heading>
                     </IconTextWrapper>
                     <Divider />
                     <br />
@@ -75,20 +74,20 @@ export default function Container() {
 
                 <RightContainer>
                     <IconTextWrapper >
-                        <Icon color="navy" size="26px"><GiBookshelf /></Icon>
-                        <Heading h4 noMargin={0} marginLeft>EDUCATION</Heading>
+                        <Icon color='Mycolors.night' size="26px"><GiBookshelf /></Icon>
+                        <Heading h4 marginLeft>EDUCATION</Heading>
                     </IconTextWrapper>
                     <Divider />
                     <EduSec />
                     <IconTextWrapper >
-                        <Icon color="navy" size="26px"><GoTools /></Icon>
-                        <Heading h4 noMargin={0} marginLeft>EXPERIENCE</Heading>
+                        <Icon color='Mycolors.night' size="26px"><GoTools /></Icon>
+                        <Heading h4 marginLeft>EXPERIENCE</Heading>
                     </IconTextWrapper>
                     <Divider />
                     <Experience />
                     <IconTextWrapper >
-                        <Icon color="navy" size="26px"><GiFlexibleStar /></Icon>
-                        <Heading h4 noMargin={0} marginLeft>HOBBIES & INTERESTS</Heading>
+                        <Icon color='Mycolors.night' size="26px"><GiFlexibleStar /></Icon>
+                        <Heading h4 marginLeft>HOBBIES & INTERESTS</Heading>
                     </IconTextWrapper>
                     <Divider />
                     <Hobbies />

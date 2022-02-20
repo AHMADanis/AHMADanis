@@ -4,17 +4,15 @@ import Mycolors from './Mycolors'
 
 const baseStyle = css`
 	margin-bottom: ${(props) => props.noMargin && '0'};
-	color: ${(props) => (props.primay ? Mycolors.night : Mycolors.light)};
+	color: ${(props) => (props.secondary ? Mycolors.rain : Mycolors.night)};
 	font-weight: 600;
-	margin-top: 0;
 	text-align: ${(props) => {
         if (props.center) return 'center';
         if (props.right) return 'right';
         return 'left';
     }};
-
 	max-width: 100%;
-    margin-left: ${props => props.marginLeft && '15px'}
+    margin-left: ${props => props.marginLeft && '10px'}
 `;
 
 const HeadingOne = styled.h1`
@@ -45,7 +43,6 @@ const HeadingThree = styled.h3`
 const HeadingFour = styled.h4`
 	font-size: 22px;
 	font-weight: bold;
-	margin-bottom: 10px;
 	${baseStyle};
 `;
 
@@ -57,6 +54,7 @@ const HeadingFive = styled.h5`
 `;
 
 export const Heading = ({
+    h1,
     h2,
     h3,
     h4,
