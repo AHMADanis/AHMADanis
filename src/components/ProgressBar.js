@@ -17,7 +17,7 @@ export default function ProgressBar() {
     return (
         <Wrapper padding=' 25px 0 15px'>
             <Text>Javascript</Text>
-            <Progress percent={85} status="active" />
+            <Progress percent={85} color='red' status="active" />
             <Text>React, React-Native</Text>
             <Progress percent={70} status="active" />
             <Text>Html, Css</Text>
@@ -28,6 +28,11 @@ export default function ProgressBar() {
             <Progress percent={70} status="active" />
             <Text>SQL, MongoDB</Text>
             <Progress percent={88} status="active" />
+            <Progress
+                type="circle"
+                strokeWidth={6}
+                Text='Hello'
+            />
         </Wrapper>
     )
 }

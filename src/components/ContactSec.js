@@ -4,6 +4,7 @@ import { ImUser } from 'react-icons/im';
 import { MdEmail, MdPhone, MdLocationPin } from 'react-icons/md';
 import { Text } from './common/Text'
 import img2 from '../images/profile2.jpeg'
+import Data from '../data/Data';
 
 
 const ContactContainer = styled.div`
@@ -22,7 +23,7 @@ height: 180px;
 width: 180px;
 border-radius: 50%;
 background-image: url(${img2});
-box-shadow: 0 0 4px 2px rgba(0, 140, 186, 0.7);
+box-shadow: 1px 1px 2px #0a102b, 0 0 15px gray, 0 0 5px #0a102b;
 `
 
 const IconStyler = styled.span`
@@ -64,24 +65,24 @@ export default function ContactSec() {
             <div>
                 <IconTextWrapper pBottom='10px'>
                     <Icon color="#0a102b" size="24px"><ImUser /></Icon>
-                    <Text mLeft='10px' P2 color="#0a102b">aneesahmad.netlify.app</Text>
+                    <Text mLeft='10px' P2 color="#0a102b">{Data.Web}</Text>
                 </IconTextWrapper>
                 <Divider />
                 <IconTextWrapper pTop='10px'>
                     <Icon color="#0a102b" size="24px"><MdEmail /></Icon>
-                    <Text mLeft='10px' P2 color="#0a102b" >inbox.ahmad.a@gmail.com</Text>
+                    <Text mLeft='10px' P2 color="#0a102b" >{Data.Email}</Text>
                 </IconTextWrapper>
             </div>
             <div><ProfileImg /></div>
             <div>
                 <IconTextWrapper pBottom='10px'>
                     <Icon color="#0a102b" size="24px"><MdPhone /></Icon>
-                    <Text mLeft='10px' P2 color="#0a102b">+46 721262770</Text>
+                    <Text mLeft='10px' P2 color="#0a102b">{Data.Phone}</Text>
                 </IconTextWrapper>
                 <Divider />
                 <IconTextWrapper pTop='10px'>
                     <Icon color="#0a102b" size="24px"><MdLocationPin /></Icon>
-                    <Text mLeft='10px' P2 color="#0a102b">Gymnasistgatan 33C 21551 Malmö</Text>
+                    <Text mLeft='10px' P2 color="#0a102b">{Data.Address}</Text>
                 </IconTextWrapper>
             </div>
         </ContactContainer>

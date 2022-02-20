@@ -16,7 +16,7 @@ const baseStyle = css`
 `;
 
 const HeadingOne = styled.h1`
-	font-size: 42px;
+	font-size: 46px;
 	font-weight: bold;
 	margin-bottom: 25px;
 	${baseStyle};
