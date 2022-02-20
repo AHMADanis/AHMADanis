@@ -8,17 +8,18 @@ import {
     Section,
     Description,
 } from 'vertical-timeline-component-react';
+import Mycolors from './common/Mycolors';
 
 
 export default function EduSec() {
     const customTheme = {
-        yearColor: '#405b73',
+        yearColor: Mycolors.night,
         lineColor: '#d0cdc4',
         dotColor: '#262626',
         borderDotColor: '#d0cdc4',
-        titleColor: '#405b73',
-        subtitleColor: 'green',
-        textColor: '#262626',
+        titleColor: Mycolors.night,
+        subtitleColor: '#708090',
+        textColor: Mycolors.rain,
     };
 
     return (
@@ -27,9 +28,9 @@ export default function EduSec() {
                 <Container>
                     <YearContent startDate='2019/07/01' endDate='2020/06/30' />
                     <BodyContent>
-                        <Section title='Malmö University'>
-                            <Description variant='subtitle' text='Mobile Apps Development' />
-                            <Description text='Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...' />
+                        <Section title='MALMÖ UNIVERSITY'>
+                            <Description text='Mobile Apps Development' />
+                            <Description variant='subtitle' text='Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...' />
                         </Section>
                     </BodyContent>
                 </Container>
@@ -37,8 +38,8 @@ export default function EduSec() {
                     <YearContent startDate='2016/01/01' endDate='2018/01/30' />
                     <BodyContent>
                         <Section title='University of The Punjab'>
-                            <Description variant='subtitle' text='M.Phil (Computer Science)' />
-                            <Description text='Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...' />
+                            <Description text='M.Phil (Computer Science)' />
+                            <Description variant='subtitle' text='Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...' />
                         </Section>
                     </BodyContent>
                 </Container>
@@ -46,8 +47,8 @@ export default function EduSec() {
                     <YearContent startDate='2013/07/15' endDate='2015/08/1' />
                     <BodyContent>
                         <Section title='University of The Punjab'>
-                            <Description variant='subtitle' text='Master in Computer Science)' />
-                            <Description text='Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...' />
+                            <Description text='Master in Computer Science)' />
+                            <Description variant='subtitle' text='Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...' />
                         </Section>
                     </BodyContent>
                 </Container>

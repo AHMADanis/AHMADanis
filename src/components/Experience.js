@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 import {
     Timeline,
     Container,
@@ -8,17 +7,18 @@ import {
     Section,
     Description,
 } from 'vertical-timeline-component-react';
+import Mycolors from './common/Mycolors';
 
 
 export default function Experience() {
     const customTheme = {
-        yearColor: '#405b73',
+        yearColor: Mycolors.night,
         lineColor: '#d0cdc4',
         dotColor: '#262626',
         borderDotColor: '#d0cdc4',
-        titleColor: '#405b73',
-        subtitleColor: 'green',
-        textColor: '#262626',
+        titleColor: Mycolors.night,
+        subtitleColor: '#708090',
+        textColor: Mycolors.rain,
     };
 
     return (
@@ -28,8 +28,8 @@ export default function Experience() {
                     <YearContent startDate='2020/09/01' currentDate />
                     <BodyContent>
                         <Section title='Freelance'>
-                            <Description variant='subtitle' text='Full Stack Developer' />
-                            <Description text='Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.' />
+                            <Description text='Full Stack Developer' />
+                            <Description variant='subtitle' text='Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.' />
                         </Section>
                     </BodyContent>
                 </Container>
@@ -37,8 +37,8 @@ export default function Experience() {
                     <YearContent startDate='2018/06/01' endDate='2019/01/30' />
                     <BodyContent>
                         <Section title='Front End Developer'>
-                            <Description variant='subtitle' text='ABC Tech' />
-                            <Description text='Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.' />
+                            <Description text='ABC Tech' />
+                            <Description variant='subtitle' text='Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.' />
                         </Section>
                     </BodyContent>
                 </Container>
@@ -46,8 +46,8 @@ export default function Experience() {
                     <YearContent startDate='2017/07/15' endDate='2017/12/30' />
                     <BodyContent>
                         <Section title='Android & iOS Application Developer'>
-                            <Description variant='subtitle' text='Smart Devs' />
-                            <Description text='Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.' />
+                            <Description text='Smart Devs' />
+                            <Description variant='subtitle' text='Neque porro quisquam est qui dolorem ipsum quia dolor sit amet.' />
                         </Section>
                     </BodyContent>
                 </Container>
