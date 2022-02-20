@@ -12,15 +12,25 @@ export const Header = styled.div`
     display: flex;  
     flex-direction: column;
     justify-content: center;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-`
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    `
+
+const TopHeading = styled(Heading)`
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: -0.05em;
+    user-select: none;
+    transition: all 0.25s ease-out;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+    `
 
 
 const ProfileSec = () => {
     return (
         <>
             <Header>
-                <Heading subHeading h3 center>ANEES AHMAD</Heading>
+                <TopHeading center h2 >Anees Ahmad</TopHeading>
                 <Heading h5 center subHeading>Full Stack Developer</Heading>
             </Header>
         </>

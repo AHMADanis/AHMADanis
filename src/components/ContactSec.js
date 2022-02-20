@@ -3,6 +3,10 @@ import styled, { css } from 'styled-components';
 import { ImUser } from 'react-icons/im';
 import { MdEmail, MdPhone, MdLocationPin } from 'react-icons/md';
 import { Text } from './common/Text'
+import img from '../images/profile.png'
+import img2 from '../images/profile2.jpeg'
+
+
 
 
 const IconStyler = styled.span`
@@ -30,11 +34,13 @@ export const Icon = ({ children, ...props }) => {
 
 
 export const ProfileImg = styled.div`
-border: 3px solid #fff;
-height: 140px;
-width: 140px;
+background-size: cover;
+background-position: center;
+height: 180px;
+width: 180px;
 border-radius: 50%;
-border-style: double;
+background-image: url(${img2});
+box-shadow: 0 0 4px 2px rgba(0, 140, 186, 0.7);
 `
 
 const ContactContainer = styled.div`
