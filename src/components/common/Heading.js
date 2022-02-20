@@ -1,10 +1,10 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
+import Mycolors from './Mycolors'
 
 const baseStyle = css`
 	margin-bottom: ${(props) => props.noMargin && '0'};
-	color: ${(props) => (props.subHeading ? 'white' : 'blue')};
-	font-family: 'Poppins', sans-serif;
+	color: ${(props) => (props.primay ? Mycolors.night : Mycolors.light)};
 	font-weight: 600;
 	margin-top: 0;
 	text-align: ${(props) => {

@@ -7,14 +7,17 @@ import { backgrounds } from 'polished'
 
 
 const PaperLayout = styled.div`
-    ${backgrounds('url("/image/background.jpg")', 'linear-gradient(#d7e1ec, #ffffff)', 'center no-repeat')}
+    ${backgrounds('url("/image/background.jpg")',
+    'linear-gradient(#ffffff, #d7e1ec, #ffffff)',
+    'center no-repeat')}
     display: flex;
     flex-direction: column;
-	margin: 0 10% 0 10%;
+	margin: 0 15% 0 15%;
 	max-width: 100%;
     min-height: 1200px;
     height: 100%;
-    align-items: stretch;  
+    align-items: stretch; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 `
 
 export default function Paper() {

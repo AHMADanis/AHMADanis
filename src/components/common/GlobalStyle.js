@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
   }
   :root {
       font-size: ${px2vw(24)};
+      font-family: 'Open Sans', sans-serif;
 
       @media (min-width: 768px) {
         font-size: ${px2vw(18)};
