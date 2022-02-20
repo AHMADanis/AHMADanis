@@ -3,10 +3,10 @@ import styled, { css } from 'styled-components';
 
 const baseStyle = css`
 	margin-bottom: ${(props) => props.noMargin && '0'};
-	color: ${(props) => (props.subText ? 'gray' : 'black')};
+	color: ${(props) => (props.primary ? '#0a102b' : '#182547')};
 	font-family: 'Poppins', sans-serif;
-	font-weight: 100;
-	margin-top: 0;
+	font-weight: 200;
+	margin-left: 10px;
 	text-align: ${(props) => {
         if (props.center) return 'center';
         if (props.right) return 'right';
@@ -25,10 +25,10 @@ const Para1 = styled.p`
 `;
 
 const Para2 = styled.p`
-	font-size: 16px;
-	font-weight: bold;
-	margin-bottom: 5px;
-	${baseStyle};
+    ${baseStyle};
+	font-size: 20px;
+	font-weight: normal;
+	
 `;
 
 export const Text = ({
