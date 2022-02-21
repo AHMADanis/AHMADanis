@@ -1,8 +1,7 @@
 const Data = {
     Name: 'Anees Ahmad',
     JobTitle: 'Full Stack Developer',
-    Web: 'https://aneesahmad.netlify.app',
-    LinkedIn: 'www.linkedin.com/in/anees-ahmad-0711/',
+    LinkedIn: 'linkedin.com/in/anees-ahmad-0711',
     Email: 'aneesahmad1107@gmail.com',
     Phone: '+46 2AFDBFC2',
     Address: 'Malmö, Skåne County, Sweden',
@@ -13,7 +12,8 @@ const Data = {
         award: 'AWARDS',
         edu: 'EDUCATION',
         exp: 'EXPERIENCE',
-        interest: 'HOBBIES & INTERESTS'
+        interest: 'HOBBIES & INTERESTS',
+        Lan: 'LANGUAGES'
     }
 }
 

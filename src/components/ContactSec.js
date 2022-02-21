@@ -1,10 +1,11 @@
 import React from 'react'
 import styled, { css } from 'styled-components';
-import { ImUser } from 'react-icons/im';
 import { MdEmail, MdPhone, MdLocationPin } from 'react-icons/md';
+import { BsLinkedin } from 'react-icons/bs'
 import { Text } from './common/Text'
 import img2 from '../images/profile2.jpeg'
 import Data from '../data/Data';
+import Mycolors from './common/Mycolors';
 
 
 const ContactContainer = styled.div`
@@ -64,25 +65,25 @@ export default function ContactSec() {
         <ContactContainer>
             <div>
                 <IconTextWrapper pBottom='10px'>
-                    <Icon color="#0a102b" size="24px"><ImUser /></Icon>
-                    <Text mLeft='10px' P2 color="#0a102b">{Data.Web}</Text>
+                    <Icon color="#0a102b" size="24px"><BsLinkedin /></Icon>
+                    <Text mLeft='10px' P2 >{Data.LinkedIn}</Text>
                 </IconTextWrapper>
                 <Divider />
                 <IconTextWrapper pTop='10px'>
                     <Icon color="#0a102b" size="24px"><MdEmail /></Icon>
-                    <Text mLeft='10px' P2 color="#0a102b" >{Data.Email}</Text>
+                    <Text mLeft='10px' P2 >{Data.Email}</Text>
                 </IconTextWrapper>
             </div>
             <div><ProfileImg /></div>
             <div>
                 <IconTextWrapper pBottom='10px'>
                     <Icon color="#0a102b" size="24px"><MdPhone /></Icon>
-                    <Text mLeft='10px' P2 color="#0a102b">{Data.Phone}</Text>
+                    <Text mLeft='10px' P2 >{Data.Phone}</Text>
                 </IconTextWrapper>
                 <Divider />
                 <IconTextWrapper pTop='10px'>
                     <Icon color="#0a102b" size="24px"><MdLocationPin /></Icon>
-                    <Text mLeft='10px' P2 color="#0a102b">{Data.Address}</Text>
+                    <Text mLeft='10px' P2>{Data.Address}</Text>
                 </IconTextWrapper>
             </div>
         </ContactContainer>

@@ -28,11 +28,6 @@ export default function ProgressBar() {
             <Progress percent={70} status="active" />
             <Text>SQL, MongoDB</Text>
             <Progress percent={88} status="active" />
-            <Progress
-                type="circle"
-                strokeWidth={6}
-                Text='Hello'
-            />
         </Wrapper>
     )
 }

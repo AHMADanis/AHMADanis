@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading } from './Heading'
+import { Heading } from './common/Heading'
 import { backgrounds } from 'polished'
-import Data from '../../data/Data'
-import Mycolors from './Mycolors'
+import Data from '../data/Data'
+import Mycolors from './common/Mycolors'
 
 
 

@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 import Mycolors from './Mycolors';
 
 const baseStyle = css`
-	color: ${(props) => (props.primary ? Mycolors.rain : Mycolors.night)};
+	color: ${(props) => (props.primary ? Mycolors.navy : Mycolors.night)};
 	font-family: 'Poppins', sans-serif;
 	font-weight: 200;
 	margin-left: ${props => props.mLeft};

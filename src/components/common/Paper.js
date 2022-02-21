@@ -2,14 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 import ContactSec from '../ContactSec'
 import DetailSec from './DetailSec'
-import ProfileSec from './ProfileSec'
+import ProfileSec from '../ProfileSec'
 import { backgrounds } from 'polished'
 
 
 const PaperLayout = styled.div`
-   /*  ${backgrounds('url("/image/background.jpg")',
-    'linear-gradient(#ffffff, #d7e1ec, #ffffff)',
-    'center no-repeat')} */
     display: flex;
     flex-direction: column;
 	margin: 0 15% 0 15%;

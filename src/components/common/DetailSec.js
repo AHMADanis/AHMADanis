@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import React from 'react'
 import { Icon, Divider, IconTextWrapper } from '../ContactSec'
 import { ImUser } from 'react-icons/im';
+import { HiTranslate} from 'react-icons/hi'
 import { GiProgression, GiPodiumWinner, GiFlexibleStar, GiBookshelf } from 'react-icons/gi'
 import { GoTools } from 'react-icons/go'
 import { Text } from './Text'
@@ -11,6 +12,8 @@ import EduSec from '../EduSec';
 import Experience from '../Experience';
 import Hobbies from '../Hobbies';
 import Data from '../../data/Data';
+import Language from '../Language';
+import Awards from '../Awards';
 
 const MainContainer = styled.div`
 display: flex;
@@ -58,18 +61,19 @@ export default function DetailSec() {
                     </IconTextWrapper>
                     <Divider />
                     <ProgressBar />
-
+                    <br/>
                     <IconTextWrapper >
                         <Icon color='Mycolors.night' size="26px"><GiPodiumWinner /></Icon>
                         <Heading h4 marginLeft>{Data.heading.award}</Heading>
                     </IconTextWrapper>
                     <Divider />
-                    <br />
-                    <Heading h5>WEB DEVELOPER OF THE YEAR</Heading>
-                    <Text>abc development & co </Text>
-                    <br />
-                    <Heading h5>WEB DEVELOPER OF THE YEAR</Heading>
-                    <Text>abc development & co </Text>
+                    <Awards />
+                    <IconTextWrapper >
+                        <Icon color='Mycolors.night' size="26px"><HiTranslate/></Icon>
+                        <Heading h4 marginLeft>{Data.heading.Lan}</Heading>
+                    </IconTextWrapper>
+                    <Divider />
+                    <Language />
                 </LeftContainer>
 
                 <RightContainer>
