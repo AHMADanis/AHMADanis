@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
     width: 90%;
 `;
 
-export default function ProgressBar() {
+export default function SkillsSec() {
     return (
         <Wrapper padding=' 25px 0 15px'>
             <Text>Javascript</Text>

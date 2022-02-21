@@ -2,12 +2,12 @@ import styled from 'styled-components'
 import React from 'react'
 import { Icon, Divider, IconTextWrapper } from '../ContactSec'
 import { ImUser } from 'react-icons/im';
-import { HiTranslate} from 'react-icons/hi'
+import { HiTranslate } from 'react-icons/hi'
 import { GiProgression, GiPodiumWinner, GiFlexibleStar, GiBookshelf } from 'react-icons/gi'
 import { GoTools } from 'react-icons/go'
 import { Text } from './Text'
 import { Heading } from './Heading';
-import ProgressBar from '../ProgressBar';
+import SkillsSec from '../SkillsSec';
 import EduSec from '../EduSec';
 import Experience from '../Experience';
 import Hobbies from '../Hobbies';
@@ -52,7 +52,6 @@ export default function DetailSec() {
                         <Heading h4 marginLeft>{Data.heading.about}</Heading>
                     </IconTextWrapper>
                     <Divider />
-                    <br />
                     <Text P1 mBottom='30px'>{Data.aboutTxt}</Text>
 
                     <IconTextWrapper >
@@ -60,8 +59,7 @@ export default function DetailSec() {
                         <Heading h4 marginLeft>{Data.heading.skill}</Heading>
                     </IconTextWrapper>
                     <Divider />
-                    <ProgressBar />
-                    <br/>
+                    <SkillsSec />
                     <IconTextWrapper >
                         <Icon color='Mycolors.night' size="26px"><GiPodiumWinner /></Icon>
                         <Heading h4 marginLeft>{Data.heading.award}</Heading>
@@ -69,7 +67,7 @@ export default function DetailSec() {
                     <Divider />
                     <Awards />
                     <IconTextWrapper >
-                        <Icon color='Mycolors.night' size="26px"><HiTranslate/></Icon>
+                        <Icon color='Mycolors.night' size="26px"><HiTranslate /></Icon>
                         <Heading h4 marginLeft>{Data.heading.Lan}</Heading>
                     </IconTextWrapper>
                     <Divider />

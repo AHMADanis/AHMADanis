@@ -3,8 +3,10 @@ const Mycolors = {
     evening: '#182547',
     rain: '#354160',
     light: '#fff',
-    smoke: 'gray',
-    navy: '#000080'
+    navy: '#000080',
+    oldBlue: '#7b0d1e',
+    offwhite: '#fefefe'
+    
 }
 
 

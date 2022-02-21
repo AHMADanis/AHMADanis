@@ -20,7 +20,7 @@ const baseStyle = css`
 
 
 const Para1 = styled.p`
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: normal;
 	${baseStyle};
 `;

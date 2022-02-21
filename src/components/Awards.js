@@ -5,18 +5,18 @@ import { Text } from './common/Text'
 
 
 const Wrapper = styled.div`
-margin-top: 25px;
-margin-bottom: 27px;
+margin-top: 20px;
+margin-bottom: 33px;
 `
 
 export default function Awards() {
     return (
         <Wrapper>
-            <Heading h5>WEB DEVELOPER OF THE YEAR</Heading>
-            <Text>abc development & co </Text>
+            <Heading h5>DEVELOPER OF THE YEAR 2020</Heading>
+            <Text>abc software int </Text>
             <br />
-            <Heading h5>WEB DEVELOPER OF THE YEAR</Heading>
-            <Text>abc development & co </Text>
+            <Heading h5>WEB DEVELOPER OF THE YEAR 2018</Heading>
+            <Text>xyz software house </Text>
         </Wrapper>
     )
 }

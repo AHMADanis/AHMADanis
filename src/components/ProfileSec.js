@@ -6,15 +6,14 @@ import Data from '../data/Data'
 import Mycolors from './common/Mycolors'
 
 
-
 export const Header = styled.div`
     min-height: 180px;
-    ${backgrounds('url("/image/background.jpg")', `linear-gradient(${Mycolors.night}, ${Mycolors.evening})`, `center no-repeat`)}
+    ${backgrounds('url("/image/background.jpg")', `linear-gradient(${Mycolors.night}, ${Mycolors.offwhite})`, `center no-repeat`)}
     width: 100%;
     display: flex;  
     flex-direction: column;
     justify-content: center;
-    text-shadow: 1px 1px 2px black, 0 0 45px gray, 0 0 5px black;
+    text-shadow: 1px 1px 2px black, 0 0 15px gray, 0 0 1px black;
     `
 
 const TopHeading = styled(Heading)`
@@ -22,7 +21,7 @@ const TopHeading = styled(Heading)`
     letter-spacing: -0.05em;
     user-select: none;
     transition: all 0.25s ease-out;
-    text-shadow: 1px 1px 2px black, 0 0 45px gray, 0 0 5px red;
+    text-shadow: 1px 1px 1px black, 0 0 15px gray, 0 0 3px black;
 
     `
 

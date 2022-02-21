@@ -33,7 +33,7 @@ export default function Language() {
                 <CircularProgressbar value={0.6} maxValue={1} text={`Swedish`} />
             </Wrapper>
             <Wrapper>
-                <CircularProgressbar value={0.5} maxValue={1} text={`Dutch`} circleRatio={0.7} />
+                <CircularProgressbar value={0.5} maxValue={1} text={`Dutch`} />
             </Wrapper>
         </Row>
     )
