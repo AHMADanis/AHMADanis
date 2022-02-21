@@ -5,7 +5,7 @@ import { BsLinkedin } from 'react-icons/bs'
 import { Text } from './common/Text'
 import img2 from '../images/profile2.jpeg'
 import Data from '../data/Data';
-import Mycolors from './common/Mycolors';
+import { Divider } from './common';
 
 
 const ContactContainer = styled.div`
@@ -14,14 +14,14 @@ flex-direction: row;
 flex-wrap: nowrap;
 justify-content: space-evenly;
 align-items: center;
-margin: 20px;
+margin: 20px 20px ;
 `
 
 export const ProfileImg = styled.div`
 background-size: cover;
 background-position: center;
-height: 180px;
-width: 180px;
+height: 140px;
+width: 140px;
 border-radius: 50%;
 background-image: url(${img2});
 box-shadow: 1px 1px 2px #0a102b, 0 0 15px gray, 0 0 5px #0a102b;
@@ -51,14 +51,6 @@ export const IconTextWrapper = styled.div`
 `;
 
 
-
-
-export const Divider = styled.div`
-border-top: 1px solid #0a102b;
-  border-radius: 5px;
-  box-shadow: 0 0 1px 1px rgba(92, 75, 206, 0.13);
-
-`
 
 export default function ContactSec() {
     return (

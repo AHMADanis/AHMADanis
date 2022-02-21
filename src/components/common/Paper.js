@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import ContactSec from '../ContactSec'
-import DetailSec from './DetailSec'
-import ProfileSec from '../ProfileSec'
-import { backgrounds } from 'polished'
+import DetailsSec from './DetailsSec'
+import HeaderSec from '../HeaderSec'
 
 
 const PaperLayout = styled.div`
+    background-color: '#fefefe';
     display: flex;
     flex-direction: column;
 	margin: 0 15% 0 15%;
@@ -19,12 +19,12 @@ const PaperLayout = styled.div`
 
 export default function Paper() {
     return (
-        <div>
+        <>
             <PaperLayout>
-                <ProfileSec />
+                <HeaderSec />
                 <ContactSec />
-                <DetailSec />
+                <DetailsSec />
             </PaperLayout>
-        </div>
+        </>
     )
 }

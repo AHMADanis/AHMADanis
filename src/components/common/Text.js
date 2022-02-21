@@ -33,12 +33,7 @@ const Para2 = styled.p`
 `;
 
 export const Text = ({
-    P1,
-    P2,
-    noMargin,
-    right,
-    center,
-    ...props
+    P1, P2, noMargin, right, center, ...props
 }) => {
     if (P1)
         return (

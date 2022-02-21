@@ -10,6 +10,9 @@ import {
 } from 'vertical-timeline-component-react';
 import Mycolors from './common/Mycolors';
 
+export const Wrapper = styled.div`
+margin-top: 10px;
+`
 
 export default function EduSec() {
     const customTheme = {
@@ -21,9 +24,8 @@ export default function EduSec() {
         subtitleColor: '#708090',
         textColor: Mycolors.rain,
     };
-
     return (
-        <div>
+        <Wrapper>
             <Timeline theme={customTheme} dateFormat='ll'>
                 <Container>
                     <YearContent startDate='2019/07/01' endDate='2020/06/30' />
@@ -53,6 +55,6 @@ export default function EduSec() {
                     </BodyContent>
                 </Container>
             </Timeline>
-        </div>
+        </Wrapper>
     )
 }

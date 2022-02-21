@@ -8,7 +8,9 @@ import Mycolors from './common/Mycolors'
 
 export const Header = styled.div`
     min-height: 180px;
-    ${backgrounds('url("/image/background.jpg")', `linear-gradient(${Mycolors.night}, ${Mycolors.offwhite})`, `center no-repeat`)}
+    ${backgrounds('url("/image/background.jpg")',
+    `linear-gradient(${Mycolors.night}, ${Mycolors.offwhite})`,
+    `center no-repeat`)}
     width: 100%;
     display: flex;  
     flex-direction: column;
@@ -26,7 +28,7 @@ const TopHeading = styled(Heading)`
     `
 
 
-const ProfileSec = () => {
+const HeaderSec = () => {
     return (
         <>
             <Header>
@@ -37,4 +39,4 @@ const ProfileSec = () => {
     )
 }
 
-export default ProfileSec
+export default HeaderSec

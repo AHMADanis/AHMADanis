@@ -5,9 +5,7 @@ const Mycolors = {
     light: '#fff',
     navy: '#000080',
     oldBlue: '#7b0d1e',
-    offwhite: '#fefefe'
-    
+    offwhite: '#fefefe'   
 }
-
 
 export default Mycolors

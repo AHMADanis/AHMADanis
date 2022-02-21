@@ -1,22 +1,18 @@
 import React from 'react'
-import styled from 'styled-components'
 import { Heading } from './common/Heading'
 import { Text } from './common/Text'
+import { Wrapper } from './common/CommonElements'
+import Data from '../data/Data'
 
-
-const Wrapper = styled.div`
-margin-top: 20px;
-margin-bottom: 33px;
-`
 
 export default function Awards() {
     return (
         <Wrapper>
-            <Heading h5>DEVELOPER OF THE YEAR 2020</Heading>
-            <Text>abc software int </Text>
+            <Heading h5>{Data.awards.aw1Title}</Heading>
+            <Text>{Data.awards.AW1Desc}</Text>
             <br />
-            <Heading h5>WEB DEVELOPER OF THE YEAR 2018</Heading>
-            <Text>xyz software house </Text>
+            <Heading h5>{Data.awards.aw2Title}</Heading>
+            <Text>{Data.awards.AW1Desc}</Text>
         </Wrapper>
     )
 }

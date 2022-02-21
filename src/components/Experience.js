@@ -8,7 +8,7 @@ import {
     Description,
 } from 'vertical-timeline-component-react';
 import Mycolors from './common/Mycolors';
-
+import { Wrapper } from './EduSec';
 
 export default function Experience() {
     const customTheme = {
@@ -22,7 +22,7 @@ export default function Experience() {
     };
 
     return (
-        <div>
+        <Wrapper>
             <Timeline theme={customTheme} dateFormat='l'>
                 <Container>
                     <YearContent startDate='2020/09/01' currentDate />
@@ -52,6 +52,6 @@ export default function Experience() {
                     </BodyContent>
                 </Container>
             </Timeline>
-        </div>
+        </Wrapper>
     )
 }

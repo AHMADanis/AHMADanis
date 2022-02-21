@@ -24,7 +24,6 @@ export const Row = styled.div`
     justify-content: space-evenly;
 `;
 
-
 export default function Hobbies() {
     return (
         <Row>
@@ -52,7 +51,6 @@ export default function Hobbies() {
                 <Icon color={Mycolors.evening} size="24px"><GiVolleyballBall /></Icon>
                 <Text color="gray" size="24px">Volley Ball</Text>
             </IconTextWrapper>
-
         </Row>
     )
 }

@@ -54,15 +54,8 @@ const HeadingFive = styled.h5`
 `;
 
 export const Heading = ({
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    noMargin,
-    right,
-    center,
-    ...props
+    h1, h2, h3, h4, h5,
+    noMargin, right, center, ...props
 }) => {
     if (h2)
         return (

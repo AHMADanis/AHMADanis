@@ -14,6 +14,18 @@ const Data = {
         exp: 'EXPERIENCE',
         interest: 'HOBBIES & INTERESTS',
         Lan: 'LANGUAGES'
+    },
+    awards: {
+        aw1Title: 'DEVELOPER OF THE YEAR 2020',
+        AW1Desc: 'ABC Software INT',
+        aw2Title: 'WEB DEVELOPER OF THE YEAR 2018',
+        AW2Desc: 'XYZ Software House',
+    },
+    languages: {
+        en: 'English',
+        ur: 'Urdu',
+        sw: 'Swedish',
+        du: 'Dutch',
     }
 }
 
