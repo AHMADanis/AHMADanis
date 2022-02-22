@@ -57,7 +57,7 @@ export default function ContactSec() {
         <ContactContainer>
             <div>
                 <IconTextWrapper pBottom='10px'>
-                    <Icon color="#0a102b" size="24px"><BsLinkedin /></Icon>
+                    <Icon color="#0a102b" size="22px"><BsLinkedin /></Icon>
                     <Text mLeft='10px' P2 >{Data.LinkedIn}</Text>
                 </IconTextWrapper>
                 <Divider />

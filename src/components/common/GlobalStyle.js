@@ -1,3 +1,4 @@
+
 import { createGlobalStyle } from "styled-components";
 import px2vw from './px2vw';
 
@@ -14,7 +15,6 @@ const GlobalStyle = createGlobalStyle`
       @media (min-width: 768px) {
         font-size: ${px2vw(18)};
       }
-
       @media (min-width: 1024px) {
         font-size: ${px2vw(16)};
       }
@@ -22,4 +22,5 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 export default GlobalStyle;
+
 

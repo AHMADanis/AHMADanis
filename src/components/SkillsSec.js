@@ -12,14 +12,15 @@ export default function SkillsSec() {
             <Progress percent={85} status="active" />
             <Text>React, React-Native</Text>
             <Progress percent={70} status="active" />
-            <Text>Html, Css</Text>
-            <Progress percent={95} status="active" />
+            <Text>Css, CSS-in-JS</Text>
+            <Progress percent={85} status="active" />
             <Text>NodeJs</Text>
             <Progress percent={90} status="active" />
             <Text>Git</Text>
             <Progress percent={70} status="active" />
             <Text>SQL, MongoDB</Text>
             <Progress percent={88} status="active" />
+            <br />
         </Wrapper>
     )
 }
