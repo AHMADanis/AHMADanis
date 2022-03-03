@@ -5,17 +5,16 @@ import { backgrounds } from 'polished'
 import Data from '../data/Data'
 import Mycolors from './common/Mycolors'
 
-
 export const Header = styled.div`
     min-height: 180px;
     ${backgrounds('url("/image/background.jpg")',
-    `linear-gradient(${Mycolors.night}, ${Mycolors.offwhite})`,
+    `linear-gradient(${Mycolors.purple}, ${Mycolors.light})`,
     `center no-repeat`)}
     width: 100%;
     display: flex;  
     flex-direction: column;
     justify-content: center;
-    text-shadow: 1px 1px 2px black, 0 0 15px gray, 0 0 1px black;
+    text-shadow: 1px 1px 2px black, 0 0 15px black,  0 0 1px black;
     `
 
 const TopHeading = styled(Heading)`
@@ -23,20 +22,18 @@ const TopHeading = styled(Heading)`
     letter-spacing: -0.05em;
     user-select: none;
     transition: all 0.25s ease-out;
-    text-shadow: 1px 1px 1px black, 0 0 15px gray, 0 0 3px black;
-
+    text-shadow: 1px 1px 1px black, 0 0 15px black, 0 0 3px black;
     `
 
 
-const HeaderSec = () => {
+export default function HeaderSec(){
     return (
         <>
             <Header>
-                <TopHeading h1 center secondary >{Data.Name}</TopHeading>
+                <TopHeading h1 center secondary>{Data.Name}</TopHeading>
                 <Heading h3 center secondary>{Data.JobTitle}</Heading>
             </Header>
         </>
     )
 }
 
-export default HeaderSec

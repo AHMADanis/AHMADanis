@@ -18,7 +18,6 @@ const baseStyle = css`
     text-align: justify;
 `;
 
-
 const Para1 = styled.p`
 	font-size: 15px;
 	font-weight: normal;
@@ -28,9 +27,7 @@ const Para1 = styled.p`
 const Para2 = styled.p`
     ${baseStyle};
 	font-size: 18px;
-	font-weight: normal;
-	
-`;
+	font-weight: normal;`
 
 export const Text = ({
     P1, P2, noMargin, right, center, ...props

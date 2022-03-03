@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import ContactSec from '../ContactSec'
-import DetailsSec from './DetailsSec'
+import DetailsSec from '../DetailsSec'
 import HeaderSec from '../HeaderSec'
 
 

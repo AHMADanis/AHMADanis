@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import React from 'react'
-import { Icon, IconTextWrapper } from '../ContactSec'
+import { Icon, IconTextWrapper } from './ContactSec'
 import { ImUser } from 'react-icons/im';
 import { HiTranslate } from 'react-icons/hi'
 import {
@@ -8,16 +8,16 @@ import {
     GiFlexibleStar, GiBookshelf
 } from 'react-icons/gi'
 import { GoTools } from 'react-icons/go'
-import { Heading } from './Heading';
-import SkillsSec from '../SkillsSec';
-import EduSec from '../EduSec';
-import Experience from '../Experience';
-import Hobbies from '../Hobbies';
-import Data from '../../data/Data';
-import Language from '../Language';
-import Awards from '../Awards';
-import AboutSec from '../AboutSec';
-import { Divider } from '.';
+import { Heading } from './common/Heading';
+import SkillsSec from './SkillsSec';
+import EduSec from './EduSec';
+import Experience from './Experience';
+import Hobbies from './Hobbies';
+import Data from '../data/Data';
+import Language from './Language';
+import Awards from './Awards';
+import AboutSec from './AboutSec';
+import { Divider } from './common';
 
 const MainContainer = styled.div`
 display: flex;
@@ -71,7 +71,6 @@ export default function DetailsSec() {
                 <Divider />
                 <Language />
             </LeftContainer>
-
             <RightContainer>
                 <IconTextWrapper >
                     <Icon color='Mycolors.night' size="26px"><GiBookshelf /></Icon>

@@ -7,7 +7,6 @@ import img2 from '../images/profile2.jpeg'
 import Data from '../data/Data';
 import { Divider } from './common';
 
-
 const ContactContainer = styled.div`
 display: flex;
 flex-direction: row;
@@ -16,7 +15,6 @@ justify-content: space-evenly;
 align-items: center;
 margin: 20px 20px ;
 `
-
 export const ProfileImg = styled.div`
 background-size: cover;
 background-position: center;
@@ -26,7 +24,6 @@ border-radius: 50%;
 background-image: url(${img2});
 box-shadow: 1px 1px 2px #0a102b, 0 0 15px gray, 0 0 5px #0a102b;
 `
-
 const IconStyler = styled.span`
     color: ${(props) => props.color};
     & svg {
